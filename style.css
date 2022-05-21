@@ -81,7 +81,7 @@ body {
   margin: 7px;
 }
 .buttons div:hover {
-  box-shadow: 0 0 20px;
+  border-color: mediumseagreen;
 }
 .buttons button {
   margin: 10px;
