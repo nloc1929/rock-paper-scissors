@@ -65,13 +65,13 @@ let computerSelection = computerPlay();                       // HELPER FUNCTION
 let result = playRound(computerSelection, playerSelection);   // HELPER FUNCTION TO PLAY SINGLE ROUND
   // DISPLAY SINGLE ROUND RESULTS OF COMPUTER AND PLAYER
   if (playerSelection === 'Rock') {          
-    document.getElementById("playerSelect").innerHTML = "PLAYER-1: <br>" + playerSelection;
+    document.getElementById("playerSelect").innerHTML = "PLAYER: <br>" + playerSelection;
     document.getElementById('playerImg').src="images/stone.png";
   } else if (playerSelection === 'Paper') {
-    document.getElementById("playerSelect").innerHTML = "PLAYER-1: <br>" + playerSelection;
+    document.getElementById("playerSelect").innerHTML = "PLAYER: <br>" + playerSelection;
     document.getElementById('playerImg').src="images/paper.png";
   } else if (playerSelection === 'Scissors') {
-    document.getElementById("playerSelect").innerHTML = "PLAYER-1: <br>" + playerSelection;
+    document.getElementById("playerSelect").innerHTML = "PLAYER: <br>" + playerSelection;
     document.getElementById('playerImg').src="images/scissors.png";
   }
   document.getElementById("compSelect").innerHTML = "COMPUTER: <br>" + computerSelection;
