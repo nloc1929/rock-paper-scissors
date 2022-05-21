@@ -11,7 +11,7 @@ body {
   padding: 80px 50px;
   color:#f4f7f8;
   font-family: 'Russo One', sans-serif;
-  font-size: 23px;
+  font-size: 21px;
   background-color: rgb(30, 30, 30);
   border-radius: 5px;
   animation: fadeIn 1s forwards;
@@ -21,7 +21,7 @@ body {
   animation: flyIn 1s forwards;
   position: absolute;
   overflow: hidden;
-  left: 14%;
+  left: 10%;
 }
 .title2 {
   animation: flyIn2 3s forwards;
@@ -32,7 +32,7 @@ body {
   animation: flyIn 2s forwards;
   position: absolute;
   overflow: hidden;
-  right: 14%;
+  right: 10%;
 }
 
 /* GAME DESCRIPTION */
@@ -125,8 +125,8 @@ body {
 .selectDisplay div {
   margin: 10px;
   background-color: rgb(30, 30, 30);
-  max-width: 150px;
-  max-height: 180px;
+  max-width: 140px;
+  max-height: 170px;
   width: 50%;
   padding: 10px 10px 15px 10px;
   border-radius: 10px;
@@ -140,22 +140,22 @@ body {
 
 #playerImg {
   margin: 10px;
-  width: 120px;
-  height: 120px;
+  width: 110px;
+  height: 110px;
   border-radius: 5px;
   animation: fadeIn 7s forwards;
 }
 #compImg {
   margin: 10px;
-  width: 120px;
-  height: 120px;
+  width: 110px;
+  height: 110px;
   border-radius: 5px;
   animation: fadeIn 8s forwards;
 }
 #resultImg {
   margin: 10px;
-  width: 120px;
-  height: 120px;
+  width: 110px;
+  height: 110px;
   border-radius: 5px;
   animation: fadeIn 9s forwards;
 }
@@ -230,8 +230,8 @@ body {
 }
 .finalResultImg img {
   margin: auto;
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   border-radius: 5px;
 }
 
@@ -244,8 +244,8 @@ body {
 .scoreDisplay div {
   background-color: rgb(30, 30, 30);
   margin: 10px;
-  max-width: 150px;
-  max-height: 200px;
+  max-width: 140px;
+  max-height: 190px;
   width: 50%;
   padding: 20px;
   border-style: solid;
